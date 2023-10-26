@@ -1,0 +1,17 @@
+#:import utils kivy.utils
+<NotificationsScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Notifications'
+            font_size: '48sp'
+        ScrollView:
+            BoxLayout:
+                orientation: 'vertical'
+                # Assume each NotificationCard represents a notification entry.
+                NotificationCard:
+                    # ... properties ...
+                NotificationCard:
+                    # ... properties ...
+                # ... more NotificationCard entries ...
+

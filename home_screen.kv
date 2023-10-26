@@ -1,0 +1,19 @@
+#:import utils kivy.utils
+<HomeScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Home'
+            font_size: '48sp'
+        ScrollView:
+            BoxLayout:
+                orientation: 'vertical'
+                # Assume each HaikuCard represents a haiku entry in the feed.
+                HaikuCard:
+                    # ... properties ...
+                HaikuCard:
+                    # ... properties ...
+                # ... more HaikuCard entries ...
+        Button:
+            text: 'Go to Login'
+            on_release: app.change_screen('login')

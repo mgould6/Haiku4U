@@ -1,0 +1,19 @@
+#:import utils kivy.utils
+<SettingsScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Settings'
+            font_size: '48sp'
+        Button:
+            text: 'Edit Profile'
+            on_release: app.edit_profile()
+        Button:
+            text: 'Change Password'
+            on_release: app.change_password()
+        Button:
+            text: 'Notification Settings'
+            on_release: app.notification_settings()
+        Button:
+            text: 'Privacy Settings'
+            on_release: app.privacy_settings()

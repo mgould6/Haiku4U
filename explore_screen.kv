@@ -1,0 +1,15 @@
+#:import utils kivy.utils
+<ExploreScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            hint_text: 'Search'
+            multiline: False
+        Button:
+            text: 'Categories'
+            on_release: app.show_categories()
+        ScrollView:
+            BoxLayout:
+                orientation: 'vertical'
+                # ... HaikuCard entries ...
+

@@ -1,0 +1,18 @@
+#:import utils kivy.utils
+<ProfileScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            source: 'profile_pic.jpg'  # Assuming a placeholder image for now
+        Label:
+            text: 'Username'
+        Label:
+            text: 'Bio'
+        TabbedPanel:
+            TabbedPanelItem:
+                text: 'My Haikus'
+                # ... Content ...
+            TabbedPanelItem:
+                text: 'Archived Haikus'
+                # ... Content ...
+

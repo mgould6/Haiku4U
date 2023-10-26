@@ -1,0 +1,25 @@
+#:import utils kivy.utils
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Haiku4U'
+            font_size: '48sp'
+            color: utils.get_color_from_hex("#FFFFFF")
+        TextInput:
+            hint_text: 'Username'
+            multiline: False
+        TextInput:
+            hint_text: 'Password'
+            multiline: False
+            password: True
+        Button:
+            text: 'Login'
+            on_release: app.login()
+        Button:
+            text: 'Sign Up'
+            on_release: app.show_signup()
+        Button:
+            text: 'Forgot Password?'
+            markup: True
+            on_release: app.show_forgot_password()

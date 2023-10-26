@@ -1,0 +1,22 @@
+#:import utils kivy.utils
+<CreateHaikuScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Create Haiku'
+            font_size: '48sp'
+        Button:
+            text: 'Capture Photo'
+            on_release: app.capture_photo()
+        Button:
+            text: 'Upload Photo'
+            on_release: app.upload_photo()
+        TextInput:
+            hint_text: 'Haiku Text'
+            multiline: True
+        Button:
+            text: 'Preview'
+            on_release: app.preview_haiku()
+        Button:
+            text: 'Publish'
+            on_release: app.publish_haiku()

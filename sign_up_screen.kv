@@ -1,0 +1,37 @@
+<SignUpScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '20dp'
+        spacing: '10dp'
+
+        Label:
+            text: 'Sign Up to Haiku4U'
+            font_size: '24sp'
+
+        TextInput:
+            id: username_input
+            hint_text: 'Username'
+            multiline: False
+
+        TextInput:
+            id: email_input
+            hint_text: 'Email'
+            multiline: False
+
+        Button:
+            text: 'Validate Email'
+            on_release: app.validate_email(email_input.text)
+
+        TextInput:
+            id: password_input
+            hint_text: 'Password'
+            multiline: False
+            password: True
+
+        Button:
+            text: 'Sign Up'
+            on_release: app.sign_up()
+
+        Button:
+            text: 'Back to Login'
+            on_release: app.change_screen('login')
