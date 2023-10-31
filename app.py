@@ -13,8 +13,8 @@ connection_string = (
     'DRIVER={SQL Server};'
     'SERVER=MGOULD;'  # Update server_name
     'DATABASE=HaikuDB;'  # Update database_name
-    'UID=UserID;'  # Update user
-    'PWD=PasswordHash'  # Update password
+    'Trusted_Connection=yes;'  # Use Windows Authentication
+
 )
 
 # Establish a database connection
