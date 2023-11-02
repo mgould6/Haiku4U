@@ -14,3 +14,47 @@ INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 03:04:33] "POST /login HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 03:17:44] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 03:17:58] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 03:18:06] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 443-965-442
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 16:07:44] "[31m[1mPOST /signup HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 16:07:48] "[31m[1mPOST /signup HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2023 16:08:01] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-681-193
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2023 20:49:50] "[35m[1mPOST /haiku/create HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2023 20:50:14] "[31m[1mPOST /haiku/create HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\mjgou\\OneDrive\\Documents\\_Projects\\Haiku4U\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-681-193
+INFO:werkzeug: * Detected change in 'c:\\Users\\mjgou\\OneDrive\\Documents\\_Projects\\Haiku4U\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-681-193
+INFO:werkzeug: * Detected change in 'c:\\Users\\mjgou\\OneDrive\\Documents\\_Projects\\Haiku4U\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-681-193
+INFO:werkzeug: * Detected change in 'c:\\Users\\mjgou\\OneDrive\\Documents\\_Projects\\Haiku4U\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-681-193
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-681-193
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2023 21:43:22] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2023 21:44:27] "[35m[1mGET /haiku/<3>, HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2023 21:44:44] "GET /haiku/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2023 21:45:59] "PUT /haiku/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2023 21:47:11] "DELETE /haiku/3 HTTP/1.1" 200 -
